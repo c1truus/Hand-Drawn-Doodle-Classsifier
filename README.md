@@ -1,4 +1,4 @@
-# Hand-Drawn Doodle Classifier
+# Hand-Drawn-Doodle-Classifier
 
 A PyTorch-based neural network classifier for MNIST handwritten digit recognition.
 
@@ -17,7 +17,7 @@ Hand-Drawn-Doodle-Classsifier/
 
 Tested on Ubuntu 24.04.4 LTS with:
 - Python 3.12.3
-- PyTorch 2.1.0 (CUDA 11.8)
+- PyTorch 2.7.1 (CUDA 11.8)
 - NVIDIA GTX 1060 6GB
 - Driver 580
 
@@ -55,6 +55,21 @@ cd data
 python split.py      # Create train/valid/test splits
 python load-mnist.py # Verify data loading
 python sample.py     # Visualize samples
+```
+
+At the end you must have this exact file structure :
+
+```bash
+$ ll
+total 40
+drwxrwxr-x  5 4096 Mar 28 15:56 ./
+drwxrwxr-x 10 4096 Mar 28 19:28 ../
+-rw-rw-r--  1 2594 Mar 28 15:48 load-mnist.py
+-rw-rw-r--  1 5289 Mar 28 15:56 sample.py
+-rw-rw-r--  1 5558 Mar 28 15:51 split.py
+drwxrwxr-x  5 4096 Mar 28 15:51 test/
+drwxrwxr-x  5 4096 Mar 28 15:51 train/
+drwxrwxr-x  5 4096 Mar 28 15:51 valid/
 ```
 
 ## Model Architecture
