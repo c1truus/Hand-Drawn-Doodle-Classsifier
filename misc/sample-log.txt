@@ -1,0 +1,107 @@
+(.env) turu@turu-G3-3579:~/Documents/FUTURE/Hand-Drawn-Doodle-Classsifier/data$ py sample.py 
+MNIST Dataset Visualizer
+==================================================
+==================================================
+MNIST DATASET STATISTICS
+==================================================
+
+TRAIN SET: 50000 samples
+  Label distribution:
+    Digit 0: 4952 (9.9%)
+    Digit 1: 5583 (11.2%)
+    Digit 2: 4942 (9.9%)
+    Digit 3: 5172 (10.3%)
+    Digit 4: 4888 (9.8%)
+    Digit 5: 4524 (9.0%)
+    Digit 6: 4899 (9.8%)
+    Digit 7: 5227 (10.5%)
+    Digit 8: 4846 (9.7%)
+    Digit 9: 4967 (9.9%)
+
+VALID SET: 10000 samples
+  Label distribution:
+    Digit 0: 971 (9.7%)
+    Digit 1: 1159 (11.6%)
+    Digit 2: 1016 (10.2%)
+    Digit 3: 959 (9.6%)
+    Digit 4: 954 (9.5%)
+    Digit 5: 897 (9.0%)
+    Digit 6: 1019 (10.2%)
+    Digit 7: 1038 (10.4%)
+    Digit 8: 1005 (10.1%)
+    Digit 9: 982 (9.8%)
+
+TEST SET: 10000 samples
+  Label distribution:
+    Digit 0: 980 (9.8%)
+    Digit 1: 1135 (11.3%)
+    Digit 2: 1032 (10.3%)
+    Digit 3: 1010 (10.1%)
+    Digit 4: 982 (9.8%)
+    Digit 5: 892 (8.9%)
+    Digit 6: 958 (9.6%)
+    Digit 7: 1028 (10.3%)
+    Digit 8: 974 (9.7%)
+    Digit 9: 1009 (10.1%)
+
+==================================================
+VISUALIZATION OPTIONS
+==================================================
+1. Show a single random sample
+2. Show a grid of random samples
+3. Compare samples from all splits
+4. Show all visualizations
+
+Enter your choice (1-4) [default: 4]: 
+
+Showing dataset statistics...
+==================================================
+MNIST DATASET STATISTICS
+==================================================
+
+TRAIN SET: 50000 samples
+  Label distribution:
+    Digit 0: 4952 (9.9%)
+    Digit 1: 5583 (11.2%)
+    Digit 2: 4942 (9.9%)
+    Digit 3: 5172 (10.3%)
+    Digit 4: 4888 (9.8%)
+    Digit 5: 4524 (9.0%)
+    Digit 6: 4899 (9.8%)
+    Digit 7: 5227 (10.5%)
+    Digit 8: 4846 (9.7%)
+    Digit 9: 4967 (9.9%)
+
+VALID SET: 10000 samples
+  Label distribution:
+    Digit 0: 971 (9.7%)
+    Digit 1: 1159 (11.6%)
+    Digit 2: 1016 (10.2%)
+    Digit 3: 959 (9.6%)
+    Digit 4: 954 (9.5%)
+    Digit 5: 897 (9.0%)
+    Digit 6: 1019 (10.2%)
+    Digit 7: 1038 (10.4%)
+    Digit 8: 1005 (10.1%)
+    Digit 9: 982 (9.8%)
+
+TEST SET: 10000 samples
+  Label distribution:
+    Digit 0: 980 (9.8%)
+    Digit 1: 1135 (11.3%)
+    Digit 2: 1032 (10.3%)
+    Digit 3: 1010 (10.1%)
+    Digit 4: 982 (9.8%)
+    Digit 5: 892 (8.9%)
+    Digit 6: 958 (9.6%)
+    Digit 7: 1028 (10.3%)
+    Digit 8: 974 (9.7%)
+    Digit 9: 1009 (10.1%)
+
+Showing grid of training samples...
+
+Showing grid of validation samples...
+
+Showing grid of test samples...
+
+Comparing samples from all splits...
